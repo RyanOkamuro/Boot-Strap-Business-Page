@@ -14,6 +14,23 @@ class Home extends Component {
                         <Button bsStyle="primary">About</Button>
                     </Link>
                 </Jumbotron>
+                <Row className="show-grid text-center">
+                    <Col xs={12} sm={4} className="person-wrraper">
+                        <Image src="assets/person-1.jpg" circle className="profile-pic" />
+                        <h3>Frank</h3>
+                        <p>Hi, I am Frank and I am a PC</p>
+                    </Col>
+                    <Col xs={12} sm={4} className="person-wrapper">
+                        <Image src="assets/person-2.jpg" circle className="profile-pic"/>
+                        <h3>Vanessa</h3>
+                        <p>Hi, I am Vanessa and I am a Mac</p>
+                    </Col>
+                    <Col xs={12} sm={4} className="person-wrapper">
+                        <Image src="assets/person-3.jpg" circle className="profile-pic"/>
+                        <h3>Riff</h3>
+                        <p>Hi, I am Riff, I am a Tablet</p>
+                    </Col>
+                </Row>   
             </Grid>
         );
     }
