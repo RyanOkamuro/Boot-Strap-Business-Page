@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Image, Grid, Row, Col } from 'react-bootstrap';
+import './News.css'
 
 class News extends Component {
     render() {
